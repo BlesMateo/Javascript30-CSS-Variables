@@ -77,7 +77,7 @@
       function handleUpdate() {
         const suffix = this.dataset.sizing || ""; //object that will contain all the data attributes from the element
         document.documentElement.style.setProperty(
-          `--c${this.name}`,
+          `--${this.name}`,
           this.value + suffix
         );
       }
